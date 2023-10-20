@@ -1,7 +1,7 @@
 {
   "name": "bravocentral",
-  "version": "0.0.1",
-  "description": "Cental server for all business Brravarda operations",
+  "version": "0.1.0",
+  "description": "Open server for keeping track of mental health and productivity",
   "main": "src/index.js",
   "type": "module",
   "scripts": {
@@ -11,7 +11,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/nicopaes/BravoCentral.git"
+    "url": "git+https://github.com/nicopaes/Open_BravoCentral_Backend.git"
   },
   "keywords": [
     "server",
