@@ -438,7 +438,7 @@ server.get("/db/commits/all",
             res.send(200, results);
         } catch
         {
-            res.send(400, { data: results });
+            res.send(400, { data: [] });
         }
         finally {
             // Close the connection to the MongoDB cluster
@@ -486,7 +486,7 @@ server.get("/db/productivity/all",
             res.send(200, results);
         } catch
         {
-            res.send(400, { data: results });
+            res.send(400, { data: [] });
         }
         finally {
             // Close the connection to the MongoDB cluster
